@@ -20,6 +20,7 @@ val dotenv = dotenv()
 val clientId = dotenv.get("CLIENT_ID")
 val player = dotenv.get("PLAYER")
 val allowUrlRegex = dotenv.get("ALLOW_URL_REGEX")
+val largeImage = dotenv.get("LARGE_IMAGE")
 
 suspend fun main() {
     // TODO: last.fm integration
@@ -63,7 +64,7 @@ suspend fun runPlayerctlCommand(ipc: KDiscordIPC, urlWhitelist: Regex) {
         logger.debug { meta }
         ipc.activityManager.setActivity(title, "$artist - $album") {
             timestamps(since!!, current + 60.minutes.toLong(DurationUnit.MILLISECONDS))
-            largeImage("breeze-dark-start-here-kde", url)
+            largeImage(largeImage, url)
         }
     }
 }
