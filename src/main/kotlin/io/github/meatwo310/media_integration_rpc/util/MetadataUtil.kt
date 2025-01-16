@@ -1,4 +1,4 @@
-package io.github.meatwo310.plasma_integration_rpc.util
+package io.github.meatwo310.media_integration_rpc.util
 
 import evalBash
 import io.github.oshai.kotlinlogging.KotlinLogging

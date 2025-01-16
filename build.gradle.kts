@@ -3,7 +3,7 @@ plugins {
     application
 }
 
-group = "io.github.meatwo310.plasma_integration_rpc"
+group = "io.github.meatwo310.media_integration_rpc"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -25,7 +25,7 @@ dependencies {
 }
 
 application {
-    mainClass = "io.github.meatwo310.plasma_integration_rpc.MainKt"
+    mainClass = "$group.MainKt"
 }
 
 tasks.test {

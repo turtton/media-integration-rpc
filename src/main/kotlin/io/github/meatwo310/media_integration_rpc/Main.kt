@@ -1,11 +1,11 @@
-package io.github.meatwo310.plasma_integration_rpc
+package io.github.meatwo310.media_integration_rpc
 
 import dev.cbyrne.kdiscordipc.KDiscordIPC
 import dev.cbyrne.kdiscordipc.core.event.impl.ReadyEvent
 import dev.cbyrne.kdiscordipc.data.activity.largeImage
 import dev.cbyrne.kdiscordipc.data.activity.timestamps
 import io.github.cdimascio.dotenv.dotenv
-import io.github.meatwo310.plasma_integration_rpc.util.MetadataUtil
+import io.github.meatwo310.media_integration_rpc.util.MetadataUtil
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
