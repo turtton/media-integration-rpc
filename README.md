@@ -1,0 +1,2 @@
+# plasma-integration-rpc
+DiscordのカスタムRPCにplayerctlで取得した再生中の音楽を表示する
